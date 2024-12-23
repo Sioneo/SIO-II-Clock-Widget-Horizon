@@ -1,0 +1,44 @@
+[
+  {
+    "once": true,
+    "id": "$sio2_dnswodn48_clock_tool00",
+    "type": "script",
+    "script": "#LuaWrapper",
+    "meta": {
+      "luawrapper": {
+        "script": "clock.lua",
+        "dev": true
+      }
+    }
+  },
+  {
+    "once": true,
+    "id": "$sio2_dnswodn48_clock_settings00",
+    "type": "script",
+    "script": "#LuaWrapper",
+    "meta": {
+      "luawrapper": {
+        "script": "settings.lua",
+        "dev": true
+      }
+    }
+  },
+  {
+    "id": "$sio2_dnswodn48_clock_IconSmallSun00",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "SmallSun.png"
+      }
+    ]
+  },
+  {
+    "id": "$sio2_dnswodn48_clock_IconSmallMoon00",
+    "type": "animation",
+    "frames": [
+      {
+        "bmp": "SmallMoon.png"
+      }
+    ]
+  }
+]
