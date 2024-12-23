@@ -1,0 +1,8 @@
+{
+  "id": "$sio2_PluginManifest_dnswodn48",
+  "version": 2,
+  "title": "SIO II Clock Widget: Horizon",
+  "text": "Version 1.0.0\nA clock widget.",
+  "author": "dnswodn",
+  "thumbnail": "SmallSun.png"
+}
