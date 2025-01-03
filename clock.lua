@@ -1,4 +1,4 @@
--- SIO II Clock Widget: Horizon, Version 1.2.0
+-- SIO II Clock Widget: Horizon, Version 1.2.1
 local smallSunIcon, smallMoonIcon, clockTime, daytime
 local timeNow = {h = 12, m = 20}
 local yBegin, xBegin, xPlus = 25, 30, 100 -- xPlus defines the length of the line
@@ -69,6 +69,7 @@ local function showHorizonClock()
 end
 
 function script:update()
+    Drawing.reset()
     if whetherShowRealTime == 1 then
         timeNow.h = os.date("%H")
 	    timeNow.m = os.date("%M") -- Update the time
